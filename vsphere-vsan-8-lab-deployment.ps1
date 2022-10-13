@@ -7,7 +7,7 @@ $VIUsername = "administrator@vsphere.local"
 $VIPassword = "VMware1!"
 
 # Full Path to the Nested ESXi 8.0 VA & Extracted VCSA 8.0 ISO
-$NestedESXiApplianceOVA = "/Volumes/Storage/Software/VMware/Lab/Nested_ESXi8.0_IA_Appliance_Template_v1.ova"
+$NestedESXiApplianceOVA = "/Volumes/Storage/Software/VMware/Lab/Nested_ESXi8.0_IA_Appliance_Template_v2.ova"
 $VCSAInstallerPath = "/Volumes/Storage/Software/VMware/Lab/VMware-VCSA-all-8.0.0-20519528"
 
 # Nested ESXi VMs to deploy
