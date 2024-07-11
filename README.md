@@ -32,7 +32,7 @@ Below is a diagram of what is deployed as part of the solution and you simply ne
     * See [ instructions here](https://blogs.vmware.com/PowerCLI/2018/03/installing-powercli-10-0-0-macos.html) for more details
 * vSphere 8.x OVAs:
     * [vCenter Server Appliance 8.0 Build 20519528](https://customerconnect.vmware.com/downloads/get-download?downloadGroup=VC800)
-    * [Nested ESXi 8.0 IA OVA](https://download3.vmware.com/software/vmw-tools/nested-esxi/Nested_ESXi8.0_IA_Appliance_Template_v2.ova)
+    * [Nested ESXi 8.0 IA OVA](https://community.broadcom.com/flings)
 
 ## Configuration
 
