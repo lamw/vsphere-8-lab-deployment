@@ -19,6 +19,8 @@ Below is a diagram of what is deployed as part of the solution and you simply ne
 
 ## Changelog
 
+* **02/28/2025**
+  * Externalize user variables to configuration files
 * **10/11/2022**
   * Initial Release
 
@@ -36,7 +38,9 @@ Below is a diagram of what is deployed as part of the solution and you simply ne
 
 ## Configuration
 
-Before you can run the script, you will need to edit the script and update a number of variables to match your deployment environment. Details on each section is described below including actual values used in my home lab environment.
+Before running the script, you will need to edit the environment configuration file, that contains all the relevant variables that are used within the deployment scripts. With the variables externalize from the deployment script, you can now have different configuration files for different environments or deployments, which are then passed to the deployment script.
+
+See [sample-my-config.ps1](sample-my-config.ps1) for an example
 
 This section describes the credentials to your physical vCenter Server in which the vSphere 8.x lab environment will be deployed to:
 ```console
@@ -48,8 +52,8 @@ $VIPassword = "FILL-ME-IN"
 This section describes the location of the files required for deployment.
 
 ```console
-$NestedESXiApplianceOVA = "/Volumes/Storage/Software/VMware/Lab/Nested_ESXi8.0_IA_Appliance_Template_v2.ova"
-$VCSAInstallerPath = "/Volumes/Storage/Software/VMware/Lab/VMware-VCSA-all-8.0.0-20519528"
+$NestedESXiApplianceOVA = "/Volumes/Storage/Software/Nested_ESXi8.0u3c_Appliance_Template_v1.ova"
+$VCSAInstallerPath = "/Volumes/Storage/Software/VMware-VCSA-all-8.0.3-24022515"
 ```
 
 **Note:** The path to the VCSA Installer must be the extracted contents of the ISO
